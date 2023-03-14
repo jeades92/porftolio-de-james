@@ -29,6 +29,7 @@ h2{
 
 .grid{
     display:flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin: 20px;
     background: #13293d;
@@ -36,7 +37,6 @@ h2{
 }
 
 .grid-item{
-    flex: 1 0 0;
   padding: 10px;
   text-align: center;
   border-style: solid;
@@ -53,6 +53,8 @@ h2{
 #main-header{
     background-color: #BBD6F3;
     color:black;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #navbar{
@@ -105,6 +107,8 @@ h2{
     height: 300px;
     margin-bottom: 30px;
     text-align: center;
+    display:flex;
+    flex-wrap: wrap;
 }
 
 #showcase h1{
