@@ -11,4 +11,4 @@ Please feel free to browse my portfolio and get in touch if you have any questio
 
 ![screenshot](./assets/images/127.0.0.1_5501_index.html.png)
 
-https://jeades92.github.io/porftolio-de-james/
+https://jeades92.github.io/portfolio-de-james/
