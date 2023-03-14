@@ -45,6 +45,10 @@ h2{
   cursor: cell;
 }
 
+.pictures {
+    width: 100%;
+}
+
 .grid-item:hover {
     opacity: .5;
 }
