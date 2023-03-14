@@ -31,7 +31,7 @@ h2{
     display:flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 20px;
+    margin: auto;
     background: #13293d;
     color: #fff;
 }
@@ -109,6 +109,7 @@ h2{
     text-align: center;
     display:flex;
     flex-wrap: wrap;
+    width: auto;
 }
 
 #showcase h1{
