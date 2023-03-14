@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <title>James' Eades Website</title>
     <link rel="stylesheet" href="./assets/styles.css">
 </head>
+
 <body>
     <header id="main-header">
         <div class="container">
@@ -17,10 +19,9 @@
     <nav id="navbar">
         <div class="container">
             <ul>
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">My Projects</a></li>
-                <li><a href="#">Links</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#aboutMe">About Me</a></li>
+                <li><a href="#myProjects">My Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
     </nav>
@@ -35,17 +36,70 @@
 
     <div class="container">
         <section id="main">
+            <a name="aboutMe"> 
             <h1>About Me</h1>
-            <p>As a junior developer, James is at the beginning of their programming journey and have much to learn, but with dedication and perseverance, James has the potential to become a skilled and valuable member of any development team.</p>
+            <p>As a junior developer, James is at the beginning of their programming journey and has much to learn, but
+                with dedication and perseverance, James has the potential to become a skilled and valuable member of any
+                development team.</p>
         </section>
         <aside id="sidebar">
-            <img src="./assets/images/headshot.jpeg">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <img src="./assets/images/headshot-250x250.jpeg">
         </aside>
     </div>
+
+    <main>
+        <div class="grid">
+            <div class="grid-item">
+                <div class="card">
+                    <img class="card-img" src="./assets/images/download-50x50.jpeg" alt="Mountain" />
+                    <div class="card content">
+                        <h1 class="card-header">My Work</h1>
+                        <p class="card-text">
+                            <strong>My Projects</strong>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid">
+            <div class="grid-item">
+                <div class="card">
+                    <img class="card-img" src="./assets/images/download-50x50.jpeg" alt="Mountain" />
+                    <div class="card content">
+                        <h1 class="card-header">My Work</h1>
+                        <p class="card-text">
+                            <strong>My Projects</strong>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid">
+            <div class="grid-item">
+                <div class="card">
+                    <img class="card-img" src="./assets/images/download-50x50.jpeg" alt="Mountain" />
+                    <div class="card content">
+                        <h1 class="card-header">My Work</h1>
+                        <p class="card-text">
+                            <strong>My Projects</strong>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="container">
+        <section id="contact">
+            <h1>Contact</h1>
+    </div>
+
     <footer id="main-footer">
         <p>Copyright &copy; 2023, My Portfolio</p>
     </footer>
 
 </body>
+
 </html>

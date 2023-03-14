@@ -1,5 +1,5 @@
 body{
-    background-color: #f4f4f4;
+    background-color: lightgray;
     color:#555;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
@@ -13,9 +13,41 @@ body{
     overflow: hidden;
 }
 
+main{
+    display: flex;
+    background-color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+    align-items: center;
+    min-height: 24em;
+}
+
+
+.grid{
+    display:flex;
+    justify-content: space-between;
+    padding: 60px;
+    background: #13293d;
+    color: #fff;
+}
+
+.grid-item{
+    flex: 1 0 0;
+  padding: 10px;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+  position: relative;
+  cursor:cell;
+}
+
+.grid-item:hover {
+    opacity: .5;
+}
+
 #main-header{
     background-color: #BBD6F3;
-    color:#fff;
+    color:black;
 }
 
 #navbar{
@@ -37,4 +69,67 @@ body{
     text-decoration: none;
     font-size: 18px;
     padding-right: 15px;
+}
+
+#showcase {
+    background-image: url("./images/Sawtooth.jpeg");
+    background-repeat: no-repeat;
+    background-position: center right;
+    height: 300px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#showcase h1{
+    color:aliceblue;
+    font-size: 50px;
+    line-height: 1.6em;
+    padding-top: 30px;
+}
+
+#main{
+    float: left;
+    width: 70%;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+#sidebar{
+    background-image: url("./images/large.jpeg");
+    float: right;
+    width: 30%;
+    color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+
+
+#main-footer{
+    background:#333;
+    color:#fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+
+
+@media(max-width:600px){
+    #main{
+        width: 100%;
+        float: none;
+    }
+
+    #sidebar{
+        width:100%;
+        float: none;
+    }
+
+    #showcase{
+        width: 100%;
+        float:none;
+    }
+
 }
